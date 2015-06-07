@@ -36,7 +36,7 @@ int main(int argc, const char * argv[]) {
   printf("husband: %s\n", husband);
   printf("wife: %s\n", wife);
   
-  //The wrong way to call the arguments
+  //The wrong way to call the arguments(bad thing about this is it compiles and executes)
   
   genericSwap(husband, wife, sizeof(char *));
   
