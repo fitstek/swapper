@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		97E280ED1B24A92600AC766F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 97E280EC1B24A92600AC766F /* main.c */; };
+		97E280F51B24A94B00AC766F /* swapIntegers.c in Sources */ = {isa = PBXBuildFile; fileRef = 97E280F31B24A94B00AC766F /* swapIntegers.c */; };
+		97E280F81B24AB2E00AC766F /* genericSwap.c in Sources */ = {isa = PBXBuildFile; fileRef = 97E280F61B24AB2E00AC766F /* genericSwap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		97E280E91B24A92600AC766F /* swapper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swapper; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E280EC1B24A92600AC766F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		97E280F31B24A94B00AC766F /* swapIntegers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swapIntegers.c; sourceTree = "<group>"; };
+		97E280F41B24A94B00AC766F /* swapIntegers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swapIntegers.h; sourceTree = "<group>"; };
+		97E280F61B24AB2E00AC766F /* genericSwap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genericSwap.c; sourceTree = "<group>"; };
+		97E280F71B24AB2E00AC766F /* genericSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericSwap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				97E280EC1B24A92600AC766F /* main.c */,
+				97E280F61B24AB2E00AC766F /* genericSwap.c */,
+				97E280F71B24AB2E00AC766F /* genericSwap.h */,
+				97E280F31B24A94B00AC766F /* swapIntegers.c */,
+				97E280F41B24A94B00AC766F /* swapIntegers.h */,
 			);
 			path = swapper;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E280ED1B24A92600AC766F /* main.c in Sources */,
+				97E280F81B24AB2E00AC766F /* genericSwap.c in Sources */,
+				97E280F51B24A94B00AC766F /* swapIntegers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

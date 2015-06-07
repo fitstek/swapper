@@ -7,9 +7,41 @@
 //
 
 #include <stdio.h>
-
+#include <string.h>
 int main(int argc, const char * argv[]) {
-  // insert code here...
-  printf("Hello, World!\n");
-    return 0;
+  
+  int x = 7;
+  int y = 10;
+  char *husband;
+  char *wife;
+  
+  husband = strdup("Fitsum Seged");
+  wife = strdup("Lemie");
+  
+  void swapIntegers(int *ap, int *bp);
+  void genericSwap(void *vp1, void *vp2, int size);
+  
+  swapIntegers(&x, &y);
+  
+  printf("x: %i\n", x);
+  printf("y: %i\n", y);
+  
+  genericSwap(&x, &y, sizeof(int));
+  
+  printf("x: %i\n", x);
+  printf("y: %i\n", y);
+  
+  genericSwap(&husband, &wife, sizeof(char *));
+  
+  printf("husband: %s\n", husband);
+  printf("wife: %s\n", wife);
+  
+  //The wrong way to call the arguments
+  
+  genericSwap(husband, wife, sizeof(char *));
+  
+  printf("husband: %s\n", husband);
+  printf("wife: %s", wife);
+  
+  return 0;
 }
